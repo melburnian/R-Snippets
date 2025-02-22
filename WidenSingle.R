@@ -2,9 +2,9 @@
 library(readxl)
 
 # Read the file into R
-file_data <- read_excel("b2.xlsx", col_names = FALSE)
+file_data <- read_excel("file_name.xlsx", col_names = FALSE)
 
-# Initialize empty variables to store the data
+# Initialise empty variables to store the data
 user_id <- character()
 full_name <- character()
 email <- character()
